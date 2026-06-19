@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>Pode abrir este site em varios dispositivos diferentes, vai aumentar e diminuir o tamanho no navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/imagempequena.jpg" type="image/png">
+        <source media="(max-width: 1000px)" srcset="Imagens/imagemmedia.jpg" type="image/png">
+        <img src="Imagens/imagemgrande.jpg" alt="">
+    </picture>
+
+    <h1>Reproduzir Musicas</h1>
+    <p>Vamos Reproduzir audios no Site</p>
+    <audio src="media/3- Minha Droga.mp3" controls autoplay></audio>
+    <p><a href="media/3- Minha Droga.mp3">Clica aqui para baixar a musica</a></p>
+
+    <audio preload="metadata" autoplay controls loop>
+        <source src="media/3- Minha Droga.mp3" type="audio;mpeg">
+    </audio>
+    
+</body>
+</html>
