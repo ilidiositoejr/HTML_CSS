@@ -2,4 +2,4 @@
 htll e css
 
 
-Rstou aprendendo a criar sites e agora vou gerenciar repositorios!
+Estou aprendendo a criar sites e agora vou gerenciar repositorios!
